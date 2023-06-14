@@ -1,0 +1,10 @@
+[module/network]
+type = internal/network
+interface=enp0s3
+interface-type=wired
+interval = 0.75
+udspeed-minwidth = 5
+accumulate-stats = true
+unknown-as-up = true
+speed-unit = ''
+label-connected = %essid% %downspeed:9%
