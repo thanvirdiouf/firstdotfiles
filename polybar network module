@@ -7,4 +7,4 @@ udspeed-minwidth = 5
 accumulate-stats = true
 unknown-as-up = true
 speed-unit = ''
-label-connected = %essid% %downspeed:9%
+label-connected = %essid% %downspeed:max%
